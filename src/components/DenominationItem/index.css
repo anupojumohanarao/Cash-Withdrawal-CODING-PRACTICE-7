@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.list-container {
+  list-style-type: none;
+  width: 47%;
+  margin-bottom: 16px;
+}
+
+.main-button {
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16x;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+@media screen and (min-height: 765px) {
+  .main-button {
+    font-size: 20x;
+  }
+}
